@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "random_cat"
+version = "0.1.0"
+description = "Have you had a long day of programming? Generate photos of random cats for morale."
+authors = ["Gracen Bourbeau"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.28.1"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
